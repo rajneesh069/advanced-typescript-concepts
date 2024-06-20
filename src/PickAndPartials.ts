@@ -16,3 +16,7 @@ const updateUser: UserUpdate = {
   name: "Rajneesh",
   email: "rajneesh@gmail.com",
 };
+
+type optionalUpdate = Partial<User>; //makes all properties optional
+
+const someUser: optionalUpdate = {}; //all properties are optional
