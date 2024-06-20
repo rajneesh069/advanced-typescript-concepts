@@ -9,3 +9,4 @@ console.log(user);
 const map = new Map(); //JS concept
 const user1 = map.set("Rajneesh", { age: 21, name: "Rajneesh" });
 console.log(user1);
+console.log(user1.get("Rajneesh"));
